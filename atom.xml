@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://liangee.github.io</id>
+    <id>http://localhost:4000</id>
     <title></title>
-    <updated>2020-06-11T11:38:09.539Z</updated>
+    <updated>2020-06-11T11:38:26.056Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://liangee.github.io"/>
-    <link rel="self" href="https://liangee.github.io/atom.xml"/>
-    <logo>https://liangee.github.io/images/avatar.png</logo>
-    <icon>https://liangee.github.io/favicon.ico</icon>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, </rights>
     <entry>
         <title type="html"><![CDATA[Galio]]></title>
-        <id>https://liangee.github.io/post/galio/</id>
-        <link href="https://liangee.github.io/post/galio/">
+        <id>http://localhost:4000/post/galio/</id>
+        <link href="http://localhost:4000/post/galio/">
         </link>
         <updated>2020-06-10T13:41:42.000Z</updated>
         <summary type="html"><![CDATA[<p>galio 开发进度</p>
@@ -20,22 +20,22 @@
         <content type="html"><![CDATA[<p>galio 开发进度</p>
  <!-- more -->
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5522146"><label class="task-list-item-label" for="task-item-5522146"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8240055"><label class="task-list-item-label" for="task-item-8240055"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7421938"><label class="task-list-item-label" for="task-item-7421938"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-510479"><label class="task-list-item-label" for="task-item-510479"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7357577"><label class="task-list-item-label" for="task-item-7357577"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8312764"><label class="task-list-item-label" for="task-item-8312764"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1263596"><label class="task-list-item-label" for="task-item-1263596"> namespace select tag模式允许创建</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2445627"><label class="task-list-item-label" for="task-item-2445627"> 移除socket无用日志</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2098089"><label class="task-list-item-label" for="task-item-2098089"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5120434"><label class="task-list-item-label" for="task-item-5120434"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6098638"><label class="task-list-item-label" for="task-item-6098638"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5893158"><label class="task-list-item-label" for="task-item-5893158"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5776991"><label class="task-list-item-label" for="task-item-5776991"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-242997"><label class="task-list-item-label" for="task-item-242997"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7924819"><label class="task-list-item-label" for="task-item-7924819"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2639949"><label class="task-list-item-label" for="task-item-2639949"> namespace select tag模式允许创建</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7539719"><label class="task-list-item-label" for="task-item-7539719"> 移除socket无用日志</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7051757"><label class="task-list-item-label" for="task-item-7051757"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
 </ul>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://liangee.github.io/post/hello-gridea/</id>
-        <link href="https://liangee.github.io/post/hello-gridea/">
+        <id>http://localhost:4000/post/hello-gridea/</id>
+        <link href="http://localhost:4000/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
