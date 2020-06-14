@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liangee.github.io</id>
     <title>枣树</title>
-    <updated>2020-06-14T10:52:02.561Z</updated>
+    <updated>2020-06-14T11:35:47.628Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liangee.github.io"/>
     <link rel="self" href="https://liangee.github.io/atom.xml"/>
@@ -20,16 +20,17 @@
         <content type="html"><![CDATA[<p>galio 开发进度</p>
  <!-- more -->
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4954944"><label class="task-list-item-label" for="task-item-4954944"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2298842"><label class="task-list-item-label" for="task-item-2298842"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5879906"><label class="task-list-item-label" for="task-item-5879906"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7490226"><label class="task-list-item-label" for="task-item-7490226"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7197783"><label class="task-list-item-label" for="task-item-7197783"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-777659"><label class="task-list-item-label" for="task-item-777659"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3649970"><label class="task-list-item-label" for="task-item-3649970"> namespace select tag模式允许创建</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9960808"><label class="task-list-item-label" for="task-item-9960808"> 移除socket无用日志</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1732510"><label class="task-list-item-label" for="task-item-1732510"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8889733"><label class="task-list-item-label" for="task-item-8889733"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8860312"><label class="task-list-item-label" for="task-item-8860312"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2728753"><label class="task-list-item-label" for="task-item-2728753"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5211244"><label class="task-list-item-label" for="task-item-5211244"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6620356"><label class="task-list-item-label" for="task-item-6620356"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6176377"><label class="task-list-item-label" for="task-item-6176377"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8084315"><label class="task-list-item-label" for="task-item-8084315"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-602955"><label class="task-list-item-label" for="task-item-602955"> namespace select tag模式允许创建</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3469677"><label class="task-list-item-label" for="task-item-3469677"> 移除socket无用日志</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2861627"><label class="task-list-item-label" for="task-item-2861627"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-218747"><label class="task-list-item-label" for="task-item-218747"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5342024"><label class="task-list-item-label" for="task-item-5342024"> 日志追踪</label></li>
 </ul>
 ]]></content>
     </entry>
