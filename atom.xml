@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liangee.github.io</id>
     <title>枣树</title>
-    <updated>2020-06-14T13:24:27.801Z</updated>
+    <updated>2020-06-15T15:58:31.815Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liangee.github.io"/>
     <link rel="self" href="https://liangee.github.io/atom.xml"/>
@@ -20,19 +20,40 @@
         <content type="html"><![CDATA[<p>galio 开发进度</p>
  <!-- more -->
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2520961"><label class="task-list-item-label" for="task-item-2520961"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8066128"><label class="task-list-item-label" for="task-item-8066128"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1972164"><label class="task-list-item-label" for="task-item-1972164"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9514168"><label class="task-list-item-label" for="task-item-9514168"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8369900"><label class="task-list-item-label" for="task-item-8369900"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1804596"><label class="task-list-item-label" for="task-item-1804596"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4362135"><label class="task-list-item-label" for="task-item-4362135"> namespace select tag模式允许创建</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2961883"><label class="task-list-item-label" for="task-item-2961883"> 移除socket无用日志</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5000872"><label class="task-list-item-label" for="task-item-5000872"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6901019"><label class="task-list-item-label" for="task-item-6901019"> 日志权限，socket权限排查</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3208229"><label class="task-list-item-label" for="task-item-3208229"> 日志追踪</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5815276"><label class="task-list-item-label" for="task-item-5815276"> 发布环境变量以及启动命令设置</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8499578"><label class="task-list-item-label" for="task-item-8499578"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1264806"><label class="task-list-item-label" for="task-item-1264806"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4363918"><label class="task-list-item-label" for="task-item-4363918"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2996951"><label class="task-list-item-label" for="task-item-2996951"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-223648"><label class="task-list-item-label" for="task-item-223648"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9789219"><label class="task-list-item-label" for="task-item-9789219"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2961711"><label class="task-list-item-label" for="task-item-2961711"> namespace select tag模式允许创建</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4334531"><label class="task-list-item-label" for="task-item-4334531"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8220038"><label class="task-list-item-label" for="task-item-8220038"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8980405"><label class="task-list-item-label" for="task-item-8980405"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2659049"><label class="task-list-item-label" for="task-item-2659049"> 日志追踪</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-157155"><label class="task-list-item-label" for="task-item-157155"> 发布环境变量以及启动命令设置</label></li>
 </ul>
+<ol>
+<li>pycharm 报错</li>
+</ol>
+<blockquote>
+<p>may have been in progress in another thread when fork() was called”<br>
+在环境变量中增加<br>
+<code>OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES</code></p>
+</blockquote>
+<ol start="2">
+<li>Flask SocketIO 关闭debug日志<pre><code class="language-python">socketio = SocketIO(
+ app,
+ # engineio_logger=log.logger if env_util.is_dev() else False,
+ engineio_logger=False,
+ logger=False,
+ cors_allowed_origins='*',
+)
+</code></pre>
+关闭debug模式，用gevent启动，不会打印日志。启动命令：<br>
+<code>gunicorn -w 4 -b 0.0.0.0:8010 --limit-request-line 0 --limit-request-field_size 0 --pid pid.log -k geventwebsocket.gunicorn.workers.GeventWebSocketWorker --timeout 120 app:app</code></li>
+</ol>
+<p>参考文档<code>https://flask-socketio.readthedocs.io/en/latest/#deployment</code></p>
 ]]></content>
     </entry>
     <entry>
