@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liangee.github.io</id>
     <title>枣树</title>
-    <updated>2020-06-16T15:30:16.310Z</updated>
+    <updated>2020-06-17T12:54:50.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liangee.github.io"/>
     <link rel="self" href="https://liangee.github.io/atom.xml"/>
@@ -17,38 +17,40 @@
         <updated>2020-06-10T13:41:42.000Z</updated>
         <summary type="html"><![CDATA[<p>galio 开发进度</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5127796"><label class="task-list-item-label" for="task-item-5127796"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9832836"><label class="task-list-item-label" for="task-item-9832836"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-124326"><label class="task-list-item-label" for="task-item-124326"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7143172"><label class="task-list-item-label" for="task-item-7143172"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2876346"><label class="task-list-item-label" for="task-item-2876346"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6798849"><label class="task-list-item-label" for="task-item-6798849"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4336417"><label class="task-list-item-label" for="task-item-4336417"> namespace select tag模式允许创建</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-494094"><label class="task-list-item-label" for="task-item-494094"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3761574"><label class="task-list-item-label" for="task-item-3761574"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4914474"><label class="task-list-item-label" for="task-item-4914474"> 日志权限，socket权限排查</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9930203"><label class="task-list-item-label" for="task-item-9930203"> 日志追踪</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-948440"><label class="task-list-item-label" for="task-item-948440"> 发布环境变量以及启动命令设置</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-723574"><label class="task-list-item-label" for="task-item-723574"> 日志下载</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8727292"><label class="task-list-item-label" for="task-item-8727292"> 通过域名负载，所有pod都被负载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1733700"><label class="task-list-item-label" for="task-item-1733700"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8576754"><label class="task-list-item-label" for="task-item-8576754"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2160395"><label class="task-list-item-label" for="task-item-2160395"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7996697"><label class="task-list-item-label" for="task-item-7996697"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5661447"><label class="task-list-item-label" for="task-item-5661447"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5160851"><label class="task-list-item-label" for="task-item-5160851"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6980541"><label class="task-list-item-label" for="task-item-6980541"> namespace select tag模式允许创建</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3557634"><label class="task-list-item-label" for="task-item-3557634"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3200757"><label class="task-list-item-label" for="task-item-3200757"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8779728"><label class="task-list-item-label" for="task-item-8779728"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4366637"><label class="task-list-item-label" for="task-item-4366637"> 日志追踪</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2286266"><label class="task-list-item-label" for="task-item-2286266"> 发布环境变量以及启动命令设置</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8896236"><label class="task-list-item-label" for="task-item-8896236"> 日志下载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6778857"><label class="task-list-item-label" for="task-item-6778857"> 通过域名负载，所有pod都被负载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3788306"><label class="task-list-item-label" for="task-item-3788306"> apollo秘钥</label></li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<p>galio 开发进度</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1209630"><label class="task-list-item-label" for="task-item-1209630"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6046107"><label class="task-list-item-label" for="task-item-6046107"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3469960"><label class="task-list-item-label" for="task-item-3469960"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4249398"><label class="task-list-item-label" for="task-item-4249398"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8174558"><label class="task-list-item-label" for="task-item-8174558"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4236043"><label class="task-list-item-label" for="task-item-4236043"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1622125"><label class="task-list-item-label" for="task-item-1622125"> namespace select tag模式允许创建</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2438892"><label class="task-list-item-label" for="task-item-2438892"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-29082"><label class="task-list-item-label" for="task-item-29082"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8767732"><label class="task-list-item-label" for="task-item-8767732"> 日志权限，socket权限排查</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6000766"><label class="task-list-item-label" for="task-item-6000766"> 日志追踪</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2997737"><label class="task-list-item-label" for="task-item-2997737"> 发布环境变量以及启动命令设置</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5046641"><label class="task-list-item-label" for="task-item-5046641"> 日志下载</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5105157"><label class="task-list-item-label" for="task-item-5105157"> 通过域名负载，所有pod都被负载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3281344"><label class="task-list-item-label" for="task-item-3281344"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6565741"><label class="task-list-item-label" for="task-item-6565741"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7193494"><label class="task-list-item-label" for="task-item-7193494"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-269237"><label class="task-list-item-label" for="task-item-269237"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3616864"><label class="task-list-item-label" for="task-item-3616864"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7262494"><label class="task-list-item-label" for="task-item-7262494"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1703210"><label class="task-list-item-label" for="task-item-1703210"> namespace select tag模式允许创建</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3345043"><label class="task-list-item-label" for="task-item-3345043"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6191536"><label class="task-list-item-label" for="task-item-6191536"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6348999"><label class="task-list-item-label" for="task-item-6348999"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-156042"><label class="task-list-item-label" for="task-item-156042"> 日志追踪</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5441458"><label class="task-list-item-label" for="task-item-5441458"> 发布环境变量以及启动命令设置</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3793367"><label class="task-list-item-label" for="task-item-3793367"> 日志下载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7158649"><label class="task-list-item-label" for="task-item-7158649"> 通过域名负载，所有pod都被负载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5287711"><label class="task-list-item-label" for="task-item-5287711"> apollo秘钥</label></li>
 </ul>
  <!-- more -->
 <ol>
