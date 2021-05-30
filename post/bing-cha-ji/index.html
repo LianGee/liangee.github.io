@@ -2,24 +2,19 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | 枣树</title>
+<title>并查集 | 枣树</title>
 <link rel="shortcut icon" href="https://liangee.github.io/favicon.ico?v=1622364769277">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://liangee.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | 枣树 - Atom Feed" href="https://liangee.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="并查集 | 枣树 - Atom Feed" href="https://liangee.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站
-👨‍💻 博主是谁
-⛹ 兴趣爱好
-📬 联系我呀
-邮箱: bo_bo0425@126.com
-..." />
+    <meta name="description" content="public class UnionFind {
+    private int v = 6;
+    private int[] parent = new int[6];
+    private int[] rank = new int[..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -86,47 +81,95 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              并查集
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2021-05-30
               </span>
               <span>
-                1 min read
+                2 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>邮箱: bo_bo0425@126.com</p>
+                <pre><code class="language-java">public class UnionFind {
+    private int v = 6;
+    private int[] parent = new int[6];
+    private int[] rank = new int[6];
+
+    public void unionSet(int x, int y) {
+        int xRoot = find(x);
+        int yRoot = find(y);
+        if(xRoot == yRoot) {//如果两个顶点的根相同，说明在同一颗树中。
+            System.out.println(String.format(&quot;cycle detected with edge (%d, %d)&quot;, x, y) );
+            return;
+        }
+        if(rank[xRoot] &gt; rank[yRoot]) {
+            parent[yRoot] = xRoot;
+        }else if (rank[xRoot] &lt; rank[yRoot]){
+            parent[xRoot] = yRoot;
+        }else {
+            parent[xRoot] = yRoot;
+            rank[xRoot]++;
+        }
+    }
+
+    public int find(int n) {
+        int root = n;
+        while (parent[root] != -1) {
+            root = parent[root];
+        }
+        return root;
+    }
+
+    public int[][] test1() {
+        return new int[][] {
+                {0, 1}, {1, 2}, {1, 3}, {3, 4}, {2, 5}
+        };
+    }
+
+    public int[][] test2() {
+        return new int[][] {
+                {0, 1}, {1, 2}, {1, 3}, {3, 4}, {2, 5}, {2, 3}
+        };
+    }
+
+    public void run(int[][] test) {
+        for (int i = 0; i &lt; v; i++) {
+            parent[i] = -1;
+            rank[i] = 0;
+        }
+        for (int[] ints : test) {
+            int x = ints[0];
+            int y = ints[1];
+            this.unionSet(x, y);
+        }
+    }
+
+}
+
+</code></pre>
 
               </div>
               <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
-
+                
               </div>
             </div>
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://liangee.github.io/post/galio/">
+              <h3 class="post-title">
+                Galio
+              </h3>
+            </a>
+          </div>
         
 
         
