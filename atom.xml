@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liangee.github.io</id>
     <title>枣树</title>
-    <updated>2021-05-31T14:26:19.580Z</updated>
+    <updated>2021-06-01T11:11:09.902Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liangee.github.io"/>
     <link rel="self" href="https://liangee.github.io/atom.xml"/>
@@ -15,8 +15,7 @@
         <link href="https://liangee.github.io/post/bing-cha-ji/">
         </link>
         <updated>2021-05-30T08:51:22.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://liangee.github.io/post-images/1622368202516.jpg" alt="" loading="lazy"><br>
-灯神讲的比较透彻，详情参考<code>https://www.bilibili.com/video/BV13t411v7Fs</code></p>
+        <content type="html"><![CDATA[<p>灯神讲的比较透彻，详情参考<code>https://www.bilibili.com/video/BV13t411v7Fs</code></p>
 <pre><code class="language-java">public class UnionFind {
     private int v = 6;
     private int[] parent = new int[6];
@@ -84,52 +83,52 @@
         <updated>2020-06-10T13:41:42.000Z</updated>
         <summary type="html"><![CDATA[<p>galio 开发进度</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-777488"><label class="task-list-item-label" for="task-item-777488"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2497947"><label class="task-list-item-label" for="task-item-2497947"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1143082"><label class="task-list-item-label" for="task-item-1143082"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3929124"><label class="task-list-item-label" for="task-item-3929124"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8303986"><label class="task-list-item-label" for="task-item-8303986"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7809756"><label class="task-list-item-label" for="task-item-7809756"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2561545"><label class="task-list-item-label" for="task-item-2561545"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1565707"><label class="task-list-item-label" for="task-item-1565707"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9489992"><label class="task-list-item-label" for="task-item-9489992"> 日志权限，socket权限排查</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1636893"><label class="task-list-item-label" for="task-item-1636893"> 日志追踪</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3466436"><label class="task-list-item-label" for="task-item-3466436"> 发布环境变量以及启动命令设置</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6657957"><label class="task-list-item-label" for="task-item-6657957"> 日志下载</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3693973"><label class="task-list-item-label" for="task-item-3693973"> build重构</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2205464"><label class="task-list-item-label" for="task-item-2205464"> template预览</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3447357"><label class="task-list-item-label" for="task-item-3447357"> nginx rule name 必填</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3781007"><label class="task-list-item-label" for="task-item-3781007"> 各类table提供搜索，分页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8870168"><label class="task-list-item-label" for="task-item-8870168"> npm、gradle、mvn、jdk、python版本</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6798956"><label class="task-list-item-label" for="task-item-6798956"> 编译速度优化</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2213794"><label class="task-list-item-label" for="task-item-2213794"> build支持自定义tag</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9541465"><label class="task-list-item-label" for="task-item-9541465"> service 更新后，已调用该svc的服务无法访问</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6131730"><label class="task-list-item-label" for="task-item-6131730"> 移除ACE使用Monaco代替</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9921480"><label class="task-list-item-label" for="task-item-9921480"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8450292"><label class="task-list-item-label" for="task-item-8450292"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9650423"><label class="task-list-item-label" for="task-item-9650423"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7891242"><label class="task-list-item-label" for="task-item-7891242"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3335223"><label class="task-list-item-label" for="task-item-3335223"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8517880"><label class="task-list-item-label" for="task-item-8517880"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4510760"><label class="task-list-item-label" for="task-item-4510760"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8809539"><label class="task-list-item-label" for="task-item-8809539"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1315242"><label class="task-list-item-label" for="task-item-1315242"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7997989"><label class="task-list-item-label" for="task-item-7997989"> 日志追踪</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2509450"><label class="task-list-item-label" for="task-item-2509450"> 发布环境变量以及启动命令设置</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2938497"><label class="task-list-item-label" for="task-item-2938497"> 日志下载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5506475"><label class="task-list-item-label" for="task-item-5506475"> build重构</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2080016"><label class="task-list-item-label" for="task-item-2080016"> template预览</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6335634"><label class="task-list-item-label" for="task-item-6335634"> nginx rule name 必填</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7426046"><label class="task-list-item-label" for="task-item-7426046"> 各类table提供搜索，分页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2564078"><label class="task-list-item-label" for="task-item-2564078"> npm、gradle、mvn、jdk、python版本</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9906868"><label class="task-list-item-label" for="task-item-9906868"> 编译速度优化</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7996520"><label class="task-list-item-label" for="task-item-7996520"> build支持自定义tag</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1660935"><label class="task-list-item-label" for="task-item-1660935"> service 更新后，已调用该svc的服务无法访问</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8241268"><label class="task-list-item-label" for="task-item-8241268"> 移除ACE使用Monaco代替</label></li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<p>galio 开发进度</p>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2954740"><label class="task-list-item-label" for="task-item-2954740"> 使用镜像中心</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7121020"><label class="task-list-item-label" for="task-item-7121020"> project 跳转build和deploy</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2644049"><label class="task-list-item-label" for="task-item-2644049"> 移除k8s无用代码</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1872690"><label class="task-list-item-label" for="task-item-1872690"> deploy log</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3238830"><label class="task-list-item-label" for="task-item-3238830"> read log 使用watch模式</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1417801"><label class="task-list-item-label" for="task-item-1417801"> build log 增加uuid</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9831844"><label class="task-list-item-label" for="task-item-9831844"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4211272"><label class="task-list-item-label" for="task-item-4211272"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-355133"><label class="task-list-item-label" for="task-item-355133"> 日志权限，socket权限排查</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3898372"><label class="task-list-item-label" for="task-item-3898372"> 日志追踪</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3225808"><label class="task-list-item-label" for="task-item-3225808"> 发布环境变量以及启动命令设置</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7997037"><label class="task-list-item-label" for="task-item-7997037"> 日志下载</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8261665"><label class="task-list-item-label" for="task-item-8261665"> build重构</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7613087"><label class="task-list-item-label" for="task-item-7613087"> template预览</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4565276"><label class="task-list-item-label" for="task-item-4565276"> nginx rule name 必填</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2969672"><label class="task-list-item-label" for="task-item-2969672"> 各类table提供搜索，分页</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8757586"><label class="task-list-item-label" for="task-item-8757586"> npm、gradle、mvn、jdk、python版本</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5496341"><label class="task-list-item-label" for="task-item-5496341"> 编译速度优化</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6108655"><label class="task-list-item-label" for="task-item-6108655"> build支持自定义tag</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6919909"><label class="task-list-item-label" for="task-item-6919909"> service 更新后，已调用该svc的服务无法访问</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-120918"><label class="task-list-item-label" for="task-item-120918"> 移除ACE使用Monaco代替</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8888389"><label class="task-list-item-label" for="task-item-8888389"> 使用镜像中心</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2697044"><label class="task-list-item-label" for="task-item-2697044"> project 跳转build和deploy</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-445879"><label class="task-list-item-label" for="task-item-445879"> 移除k8s无用代码</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9104117"><label class="task-list-item-label" for="task-item-9104117"> deploy log</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3325339"><label class="task-list-item-label" for="task-item-3325339"> read log 使用watch模式</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3068917"><label class="task-list-item-label" for="task-item-3068917"> build log 增加uuid</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4478909"><label class="task-list-item-label" for="task-item-4478909"> 移除socket无用日志 (非debug模式可关闭日志)</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-819500"><label class="task-list-item-label" for="task-item-819500"> 项目配置表单增加域名，支持修改，默认使用根域名绑定</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3475816"><label class="task-list-item-label" for="task-item-3475816"> 日志权限，socket权限排查</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8313369"><label class="task-list-item-label" for="task-item-8313369"> 日志追踪</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3237637"><label class="task-list-item-label" for="task-item-3237637"> 发布环境变量以及启动命令设置</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2483878"><label class="task-list-item-label" for="task-item-2483878"> 日志下载</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4633724"><label class="task-list-item-label" for="task-item-4633724"> build重构</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4507369"><label class="task-list-item-label" for="task-item-4507369"> template预览</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2223946"><label class="task-list-item-label" for="task-item-2223946"> nginx rule name 必填</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6067757"><label class="task-list-item-label" for="task-item-6067757"> 各类table提供搜索，分页</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9372396"><label class="task-list-item-label" for="task-item-9372396"> npm、gradle、mvn、jdk、python版本</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7139321"><label class="task-list-item-label" for="task-item-7139321"> 编译速度优化</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6556189"><label class="task-list-item-label" for="task-item-6556189"> build支持自定义tag</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6403107"><label class="task-list-item-label" for="task-item-6403107"> service 更新后，已调用该svc的服务无法访问</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2692998"><label class="task-list-item-label" for="task-item-2692998"> 移除ACE使用Monaco代替</label></li>
 </ul>
  <!-- more -->
 <ol>
